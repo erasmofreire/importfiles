@@ -3,9 +3,9 @@ const path = require("path");
 const { S3 } = require("aws-sdk");
 
 const awsConfig = {
-  accessKeyId: "",
-  secretAccessKey: "",
-  region: "us-east-2",
+  accessKeyId: "my-acesskey",
+  secretAccessKey: "my-secretAcessKey",
+  region: "my-region-aws",
 };
 
 const clienteS3 = new S3(awsConfig);
