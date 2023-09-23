@@ -3,8 +3,8 @@ const path = require("path");
 const { S3 } = require("aws-sdk");
 
 const awsConfig = {
-  accessKeyId: "AKIARTOOH7ZPUT3PVQI3",
-  secretAccessKey: "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",
+  accessKeyId: "",
+  secretAccessKey: "",
   region: "us-east-2",
 };
 
